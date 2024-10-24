@@ -1,0 +1,41 @@
+
+
+#container {
+    margin: 10px auto;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#field {
+    /* fixed */
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url('./field.png');
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* variable */
+    height: 400px;
+    width: 700px;
+}
+
+#control {
+    margin: 10px;
+
+}
+
+#ball {
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+
+    /* variable */
+    width: 50px;
+    height: 50px;
+    /* left: calc((width - diameter - border)); /
+    / top: calc((height - diameter - border)); */
+}
